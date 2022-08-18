@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { Box, Button, CircularProgress, Typography } from "@mui/material"
 import useAxios from '../hooks/useAxios';
 import { useSelector, useDispatch } from 'react-redux';
-import { useNavigate, Navigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { handleScoreChange } from '../redux/actions';
 import { decode } from 'html-entities';
 
