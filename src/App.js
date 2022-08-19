@@ -1,4 +1,3 @@
-import { Typography } from "@mui/material";
 import { Box, Container } from "@mui/system";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import FinalScreen from "./pages/FinalScreen";
