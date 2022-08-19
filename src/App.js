@@ -16,9 +16,6 @@ function App() {
               path="/"
               element={
                 <div>
-                  <Typography variant="h2" fontWeight="bold">
-                    Quiz App
-                  </Typography>
                   <Settings />
                 </div>
               }
