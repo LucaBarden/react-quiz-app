@@ -45,7 +45,7 @@ const Settings = () => {
   return (
     <div>
       <Typography variant="h2" fontWeight="bold">
-        <span className="text-gradient">The Daily Quiz</span>
+        <span className="text-gradient">Quiz</span>
       </Typography>
       <form onSubmit={handleSubmit}>
         <SelectField options={response.trivia_categories} label="Category" />
